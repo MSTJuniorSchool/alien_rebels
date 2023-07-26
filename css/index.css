@@ -1,9 +1,66 @@
-<style>
-	h1{
-		color: blue;
-	}
-	p{
-		font-size: 100px;
-		{
-		p{
-	</style>		
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.nav_img {
+  border: 1px solid #ddd;
+  border-radius: 67px;
+  padding: 5px;
+  width: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+}
+.main_nav{
+	background-color:Violet ;
+}
+
+.main_content{
+	background-image: url("../images/mst.jpg");
+	background-color: #f8f8f8;
+	height: 700px;
+}
+
+
+
+
+
+
+
+.main_image{
+	float: right;
+	margin: 3%;
+	height: 450px;
+	width: 70%;
+	border-radius: 40px 5px 5px 40px;
+	display: inline;
+}
+
+.main_image:after{
+	border-width: 0 0 25px 25px;
+	border-color: transparent transparent #f9f9f9 transparent;
+}
+
+.rectangle{
+	float: left;
+	display: inline;
+	margin: 3%;
+	height: 450px;
+	width: 16%;
+}
+
+.second_rectangle{
+	float: left;
+	position: absolute;
+	display: inline;
+	margin: 13%;
+	width: 16%;
+	bottom: 0;
+	left: 0;
+}
